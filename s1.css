@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav div a {
+  text-decoration: none;
+  margin: 20px;
+  color: rgb(112, 246, 112);
+}
+
+/*# sourceMappingURL=s1.css.map */

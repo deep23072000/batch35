@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+   margin: 0px;
+   padding: 0px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-image: url('https://www.portotheme.com/wordpress/porto/shop47/wp-content/uploads/sites/230/2023/11/porto47-intro-banner-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.hero article .div1{
+    font-size: 24px;
+    color: rgb(71, 70, 70);
+}
+
+.hero article .div2{
+    font-size: 42px;
+    color: black;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;     
+}
+
+.hero article .div3{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.hero article div img{
+    position: relative;
+    z-index: 3;
+}
+
+
+/* =============speed====== */
+
+.speed{
+    font-size: 64px;
+    font-weight: 600;
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    z-index: 1;
+}

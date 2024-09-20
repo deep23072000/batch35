@@ -1,0 +1,17 @@
+/* .nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav article{
+    display: flex;
+} */
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.leftdiv{
+    margin-right: 400px;
+}
+.rightdiv{
+    margin-left: 400px;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.service{
+    color: yellow;
+    text-decoration: none;
+}
+
+.about{
+    color: green;
+    text-decoration: none;
+
+}
+
+.home{
+    color: red;
+    text-decoration: none;
+
+}
+.contact{
+    color: red;
+    text-decoration: none;
+}
+
+
+.fa-apple{
+    color: red;
+}
+
+.fa-apple-whole{
+    color: green;
+    font-size: 50px;
+}
+.fa-instagram{
+    color: rgb(246, 131, 150);
+}

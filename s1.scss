@@ -1,0 +1,15 @@
+$textcolor:rgb(112, 246, 112);
+$marginanchor:20px;
+
+.nav{
+    display: flex;
+    justify-content: center;
+    div{
+        a{
+            text-decoration: none;
+            margin: $marginanchor;
+            color: $textcolor;
+        }
+    }
+}
+

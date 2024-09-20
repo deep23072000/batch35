@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(180, 248, 248);
+}
+
+.sliders {
+  width: 400px;
+  height: 400px;
+}
+
+.btn1 {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+}
+
+.btn2 {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: yellow;
+}
+
+.btn3 {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: pink;
+}
+
+.btn4 {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+}
+
+/*# sourceMappingURL=batch1130.css.map */

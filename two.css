@@ -1,0 +1,93 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.two_section_navbar{
+    position: sticky;
+    top: 0px;
+}
+.two_section_navbar ul li img{
+    width: 50px;
+    border-radius: 50%;
+    /* margin-right:400px ; */
+}
+
+.two_section_navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: yellow;
+}
+
+/* .two_section_navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+} */
+
+.two_section_navbar ul li ul li a{
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+/* ====================hero section=========== */
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    
+}
+
+.hero article .div1{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.hero article .div2{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 30px 0px 30px 0px;
+}
+
+.hero article .div3{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 5px 10px 5px;
+    background-color: black;
+    color: yellow;
+    width: 120px;
+    border-radius: 5px;
+    position: sticky;
+    top: 0px;
+}
+
+#enquire{
+    position: fixed;
+    bottom: 100px;
+    /* left: 400px; */
+    right: 100px;
+     padding: 30px;
+     color: white;
+     font-size: 30px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+/* =============position========== */
+.position1{
+    width: 200px;
+    /* position: relative; */
+    position: absolute;
+    z-index: 10;
+    top: 300px;
+    left: 800px;
+}

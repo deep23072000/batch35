@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+/* body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+} */
+
+/* ===========side fixed four option======== */
+.sidefixed{
+    position: fixed;
+    right: 0px;
+    top: 150px;
+    display: none;
+}
+
+.sidefixed div{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    margin: 20px 0px 20px 0px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.sidefixed div i{
+    color: white;
+}
+/* =============================================== */
+
+.topnav{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.topnav u{
+    cursor:pointer;
+    margin-left: 10px;
+}
+
+#greater{
+    margin-left: 300px;
+}
+
+#less{
+    margin-right: 300px;
+}
+
+#xmark{
+    position: absolute;
+    right: 10px;
+}
+
+@media (max-width:1025px){
+    #greater{
+        margin-left: 150px;
+    }
+    
+    #less{
+        margin-right: 150px;
+    }
+}
+@media (max-width:821px){
+    #greater{
+        margin-left: 100px;
+    }
+    
+    #less{
+        margin-right: 100px;
+    }
+}
+@media (max-width:431px){
+    #greater{
+        margin-left: 10px;
+    }
+    
+    #less{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:390px){
+    #greater{
+        margin-left: 5px;
+    }
+    
+    #less{
+        margin-right: 5px;
+    }
+    .topnav{
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+/* ================midnav====== */
+
+.midnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+    overflow-x: hidden;
+}
+
+.midnav article{
+    display: flex;
+
+}
+
+.midnav article div a{
+    text-decoration: none;
+}
+
+.midnav article div{
+    margin: 20px;
+}
+
+@media (max-width:1025px){
+    .midnav{
+        padding: 0px 10px 0px 10px;  
+    }
+}
+
+@media(max-width:768px){
+    .midnavhidediv{
+        display: none;
+    }
+}
+
+/* ==============mainnavbar========= */
+
+.mainnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+    position: sticky;
+    top: 0px;
+    overflow-x: hidden;
+}
+
+.mainnavbar article{
+    display: flex;
+}
+
+.mainnavbar article div a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.mainnavbar article div a img{
+    margin-left: -250px;
+}
+
+/* ===========hero======= */
+
+.hero{
+    background-image: url('https://www.portotheme.com/wordpress/porto/shop47/wp-content/uploads/sites/230/2023/11/porto47-intro-banner-1.jpg');
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.hero article .speed{
+    position: absolute;
+    top: 300px;
+    color: white;
+    font-size: 124px;
+    left: 650px;
+    z-index: 2;
+    display: none;
+    
+}
+.hero article .bigspeed{
+    position: absolute;
+    top: 200px;
+    color: white;
+    font-size: 200px;
+    left: 550px;
+    z-index: 1;
+    opacity: 0.3;
+    display: none;
+    
+}
+.hero article div img{
+    position: relative;
+    z-index: 3;
+}
+
+.hero article .price{
+    position: absolute;
+    top: 600px;
+    left: 1200px;
+    display: none;
+}
+
+
+/* ===========product card=========== */
+
+.card{
+     display: grid;
+     grid-template-columns: auto auto auto auto auto;
+     justify-content: space-evenly;
+     background-color: rgb(235, 233, 233);
+     overflow-x: hidden;
+}
+
+.card article{
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.card article div img{
+    width: 150px;
+}
+
+.card article .pname{
+     font-size: 24px;
+     color: silver;
+}
+
+@media (max-width:1025px) {
+    .card{
+    grid-template-columns: auto auto auto;
+    }
+}
+@media(max-width:821px){
+    .card{
+        grid-template-columns: auto auto;  
+           }
+}
+
+@media (max-width:431px){
+    .card{
+    grid-template-columns: auto;
+    }
+}

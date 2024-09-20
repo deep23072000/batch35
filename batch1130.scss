@@ -1,0 +1,39 @@
+@import '_variable';
+
+body{
+    background-color: $btncolor;
+}
+
+.sliders{
+    width: $imgwidth;
+    height: $imgheight;
+}
+
+@mixin btncss(){
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn1{
+    @include btncss();
+    color: black;
+}
+
+.btn2{
+    @include btncss();
+    color: yellow;
+}
+
+.btn3{
+    @include btncss();
+    color: pink;
+}
+
+.btn4{
+    @include btncss();
+    color: red;
+}
